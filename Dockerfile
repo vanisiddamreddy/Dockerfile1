@@ -2,7 +2,7 @@ FROM ubuntu
 #install httpd (web server)
 RUN yum -y update
 RUN yum -y install httpd httpd-tools
-<html>
+<HTML>
 <head>
 <title>Student Registration Form</title>
 
@@ -304,7 +304,7 @@ PG
 </form>
  
 </body>
-</html>
+</HTML>
 EXPOSE 80
 #start web server
 CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
