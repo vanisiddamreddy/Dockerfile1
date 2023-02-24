@@ -6,4 +6,4 @@ RUN yum -y install httpd httpd-tools
 
 EXPOSE 80
 #start web server
-CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
+CMD ["/usr/sbin/httpd","-D","FOREGROUND"
