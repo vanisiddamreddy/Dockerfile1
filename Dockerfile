@@ -4,7 +4,7 @@ RUN yum -y update
 RUN yum -y install httpd httpd-tools
 
 
-<head>
+
 <title>Student Registration Form</title>
 
 <style>
