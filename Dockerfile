@@ -2,7 +2,8 @@ FROM ubuntu
 #install httpd (web server)
 RUN yum -y update
 RUN yum -y install httpd httpd-tools
-<HTML>
+
+
 <head>
 <title>Student Registration Form</title>
 
