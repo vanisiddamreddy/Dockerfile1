@@ -1,2 +1,2 @@
 FROM ubuntu
-RUN echo "Testing docker" > /tmp/testfile
+RUN echo "Testing docker" > /tmp/testfile1
